@@ -13,7 +13,7 @@ const Countries = () => {
 
     return (
         <div>
-            <h3>Countries : {countries.length}</h3>
+            <h2>Countries : {countries.length}</h2>
             <div className='countries'>
             {
                 countries.map(country => <Country country={country} key={country.name.common}></Country>)
